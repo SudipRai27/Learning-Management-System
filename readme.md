@@ -1,4 +1,4 @@
-## About Laravel
+## Learning Management System
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects.
 
@@ -33,8 +33,8 @@ username: admin@admin.com <br>
 password: password123<br>
 
 You can create student and teachers but the password will be dob by default which can be changed in the future after loggin in.
-
-Since, this application uses smtp and gmail to send emails, you need to enable 2 factor authentication and retrieve app password which then you can set in the .env file along with the email address, port and mail encryption. The default email configuration would be: 
+<br>
+Since, this application uses smtp and gmail to send emails, you need to enable 2 factor authentication and retrieve app password which then you can set in the .env file along with the email address, port and mail encryption. The default email configuration would be: <br>
 <br>
 
 MAIL_DRIVER=smtp
