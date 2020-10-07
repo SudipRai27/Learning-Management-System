@@ -49,7 +49,8 @@ MAIL_PASSWORD=*your app password*
 <br>
 MAIL_ENCRYPTION=ssl
 <br>
-Furthermore, this system uses S3 amazon web services to store files in the server for modules such as assignment, lectures etc.. So this also needs to be setup at .env. You need to register account with aws and login to s3 services. You need to then create a bucket. After that gain the aws acces key id , aws secret access key, aws default region and aws bucket name. Your details of amazon s3 key would be in the .env file as follows
+<br>
+Furthermore, this system uses S3 amazon web services to store files in the server for modules such as assignment, lectures etc.. So this also needs to be setup at .env. You need to register account with aws and login to s3 services. You need to then create a bucket. After that gain the aws acces key id , aws secret access key, aws default region and aws bucket name. Your details of amazon s3 key would be in the .env file as follows:<br>
 <br>
 AWS_ACCESS_KEY_ID = * your access key id *
 <br>
@@ -59,6 +60,10 @@ AWS_DEFAULT_REGION = * your aws default region *
 <br>
 AWS_BUCKET = *your bucket name *
 <br>
+<br>
+
+Demo: http://unicampus.com.au/
+
 
 
 
