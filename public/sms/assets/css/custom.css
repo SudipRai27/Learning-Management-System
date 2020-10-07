@@ -1,0 +1,401 @@
+
+.profile-image{ margin: 20px auto !important; width: 200px; height: 200px; border-radius:50%; overflow: hidden; border: 5px solid #ccc; }
+
+.main-head{ font-size: 20px; color: #3c8dbc; line-height: 30px}
+.second-head{ font-size: 16px; color: #27a106; line-height: 25px}
+.profile-detail ul{margin:15px 0; padding: 0}
+.profile-detail ul li{ margin:0;padding: 0; list-style: none; line-height: 30px; border-bottom: 1px solid #ccc;  background-color: #eee; padding-left: 15px}
+.profile-detail ul li label{ min-width: 150px;}
+
+.profile-menu ul{ margin: 15px 0 !important;}
+.profile-menu li{  list-style: none; margin:0; padding:0;}
+
+.btn-profile{ padding:15px; text-align: center; min-width: 80px; font-size: 16px}
+.btn-profile i{ display: block; padding-bottom: 10px; font-size: 20px}
+
+.dloading{ width: 50px; height: 60px; margin:0 auto; margin-top: 25px; }
+
+.pimg{ width: 100%; min-height: 150px }
+
+.info-bar{  background-color: #3c8dbc; color: #fff;  line-height: 30px;  padding: 5px 10px;}
+
+.happy-info{  background-color: #69a648; margin-bottom: 15px; color: #fff; font-size: 18px; text-align: center;  line-height: 40px; }
+.danger-bar{  background-color: #e73232; color: #fff;  line-height: 30px;  padding: 5px 10px;}
+
+/*************  check box***********************/
+input[type=checkbox].css-checkbox {
+position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+                        }
+input[type=checkbox].css-checkbox + label.css-label {padding-left:23px; height:18px; display:inline-block;  line-height:18px;   background-repeat:no-repeat; background-position: 0 0; font-size:14px; vertical-align:middle; cursor:pointer;}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {background-position: 0 -18px;}
+
+label.css-label {background-image:url(../../assets/img/checkbox.png);-webkit-touch-callout: none;-webkit-user-select: none; -khtml-user-select: none;-moz-user-select: none;    -ms-user-select: none;  user-select: none;}
+
+
+.slimScrollBar {
+background: none repeat scroll 0 0 #fff !important;
+border-radius: 0;
+display: none;
+height: 200px;
+position: absolute;
+right: 1px;
+top: 145px;
+width: 10px!important;
+z-index: 99;
+opacity:0.3!important;
+}
+
+.result-table a {
+        cursor:pointer;
+        color:black;
+    }
+
+.result-table a:hover {
+    cursor:pointer;
+    color:black;
+    text-decoration:underline;
+}
+
+.breadcrumbs .breadcrumb-link a {
+    color: rgba(0,0,0,0.8);
+    transition: all 0.5s ease-in-out;
+}
+
+.breadcrumbs .breadcrumb-link a:hover {
+    text-decoration: underline;
+    color: rgb(171 143 206);
+}
+
+.cards {
+    width: 33% !important;
+}
+
+.card {
+    width: 100%;    
+    border: 2px solid #fff;
+    padding: 1rem;
+    background: #f4f4f4;
+    border-radius: 9.5px;
+
+}
+
+.card .card-heading {
+    padding: 0.4rem;
+    margin: 0.5rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card .card-text {
+    font-size: 1.5rem;
+    padding:1rem;
+}
+
+.dashboard-heading, 
+.subject-content .subject-heading, 
+.subject-details .subject-heading {
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 1rem;
+    background-image: linear-gradient(to right, #8fa8c4 20%, #9c92b3 50%);
+    text-align:center;
+    margin: 2rem 0;
+}
+
+.subject-details .subject-sub-heading {
+    font-size: 2.2rem !important;
+
+}
+
+.subject-details .jumbotron {
+    padding: 2rem !important;
+}
+
+.subject-details .jumbotron p, 
+.subject-content .panel-heading
+{
+    font-size: 1.6rem;
+    font-weight: 100;
+}
+
+.subject-content .panel-heading {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.subject-content .panel-subheading {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.subject-content .files {
+    margin: 1rem 0;
+}
+
+.subject-content .files .files-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 0.8rem;
+}
+
+
+.subject-content .resources {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.5rem;
+}
+
+.subject-content .resources li {
+    padding: 0.4rem 0;
+}
+
+.subject-content .resources li i{
+    margin-right: 0.5rem;
+}
+
+.teaching-team {
+    margin: 2rem 0;
+    background-image: linear-gradient(135deg, #68bc73 0%, #d6b183 100%);
+    padding:1.5rem;
+}
+
+.teaching-team .teaching-team-inner {
+    background: #ffffff;
+}
+
+.teaching-team-inner .teaching-team-heading {
+    background: #47989b;
+    padding: 1.5rem;
+    font-size: 1.7rem;
+    color: #ffff;
+}
+
+.teaching-team-inner .teaching-team-content {
+    padding:1rem;
+}
+
+.teaching-team-content .teacher-card {
+    border: 0.8px solid rgb(245 229 185 / 90%);
+    box-shadow: 1px 4px 2px 1px rgba(0,0,0,0.3);
+    padding: 2rem 1rem;
+    margin: 2rem 0;
+}
+
+.teacher-card .teacher-card-row h4{
+    font-size: 1.8rem;
+}
+
+.teacher-card .teacher-card-contact {
+    font-size: 1.8rem;
+}
+
+.assignment-submission .submission-link{
+    font-size: 1.5rem;
+    color: rgba(0,0,0,0.7);
+}
+
+.assignment-submission .submission-link:hover{
+    text-decoration: underline;
+}
+
+.assignment{
+    padding: 2rem;
+    margin: 2rem 0 ;
+    border:1px solid rgba(0,0,0,0.3);
+}
+
+.assignment .assignment-header h2 {
+    font-size:3rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+}
+
+.assignment .assignment-header p {
+    font-size: 1.9rem;
+    margin: 1rem 0;
+}
+
+.assignment-content .submission-table {
+    margin: 2rem 0;
+}
+
+.submission-table td {
+    font-size: 1.42rem;
+}
+
+.submission-table .left-cell {
+    width: 20%;
+    font-weight: bold;
+}
+
+.bg-dark-blue {
+    background-color: rgb(159 161 202 / 80%);
+}
+
+.submission-btn {    
+    align-items: center;
+    text-align: center;
+    margin:2rem 0;
+}
+
+.fileinput-remove-button, 
+    .fileinput-upload-button, 
+    .kv-file-upload, 
+    .kv-file-zoom, 
+    .file-upload-indicator,
+    .fa-plus-circle:before{
+        display: none;
+    }
+
+.current-files {
+    width: 100%;
+    padding: 1rem 1rem;
+    border: 1px solid #ddd;
+    box-shadow: 5px 5px 2px rgb(0,0,0,0.2), -5px -5px 2px rgb(0,0,0,0.2);
+    height: 320px;
+    overflow: auto; 
+    padding: 2rem 2rem;
+    font-size: 1.5rem;  
+    line-height: 2;
+}
+
+.error-msg {
+    color:red;
+}
+
+.my-dashboard {
+    font-size: 2rem !important;
+}
+
+.dashboard {
+    margin-top: 2rem;
+}
+
+.my-courses {
+    margin-top: 2rem !important;
+}
+
+#enrolled-subjects, 
+#assigned-subjects {    
+    padding: 0.5rem;
+    margin: 2rem 0;
+    background: #e9dede;
+}
+
+.upcoming-events .panel-heading{
+    background: #008d4d;
+    color: #fff;
+}
+
+.quick-links .panel-heading {
+    background: #e9a21f;
+    color: #fff;
+}
+
+.card .card-h {
+    width: 100%;
+    background: #fff;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.lead-text {
+    background: #e75f5f;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.info-lead {
+    background: #8f79ed;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.assigned-enrolled-subject-heading{
+    width: 100%;
+    background: #707ea3;
+    color: white;
+    text-align: center;
+    margin: 2rem 0;
+    padding: 1rem;
+}
+
+.success-badge {
+    background: #279964;
+    color: #fff;
+    padding: 0.6rem;
+}
+
+.primary-badge {
+    display: inline-block;
+    background: #5563a1;
+    color: #fff;
+    padding: 0.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.error-badge {
+    background: #d4503f;
+    color: #fff;
+    padding: 0.6rem;
+}
+
+.event {
+    padding: 2rem;
+}
+
+.event .event-col1
+{
+    padding: 1.5rem;
+    background: #ffffff;
+    box-shadow: 0px 13px 10px rgba(0,0,0,0.3);
+}
+
+
+.event-details .title {
+    font-size: 2rem !important;
+    font-weight: 700;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.event-details .location {
+    font-size: 1.7rem !important;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    color: #cd890c;
+}
+
+.event-details .date,  
+.event-details .time  {
+    font-size: 1.6rem !important;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.event-carousel {
+    margin-bottom: 3rem !important;
+}
+
+@media only screen and (max-width: 850px) {
+    .cards {
+        width: initial !important;
+    }
+    
+}
+
+@media screen and (max-width: 1150px) and (min-width: 850px) {
+    .cards {
+        width: 49% !important;
+    }
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    width: 100% !important;
+}

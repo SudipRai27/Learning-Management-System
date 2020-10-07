@@ -1,0 +1,9 @@
+{
+    "can_view_timetable_list": [
+        "3"
+    ],
+    "can_create_update_timetable": [
+        "3"
+    ],
+    "can_delete_timetable": []
+}

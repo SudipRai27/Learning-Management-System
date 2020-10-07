@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/academicsession",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\AcademicSession\\Providers\\AcademicSessionServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\AcademicSession\\": ""
+        }
+    }
+}

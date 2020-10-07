@@ -1,0 +1,15 @@
+{
+    "can_view_event_list": [
+        "2",
+        "3",
+        "4"
+    ],
+    "can_create_event": [],
+    "can_view_individual_event": [
+        "2",
+        "3",
+        "4"
+    ],
+    "can_edit_event": [],
+    "can_delete_event": []
+}

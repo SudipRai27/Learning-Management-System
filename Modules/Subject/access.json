@@ -1,0 +1,12 @@
+{
+    "can_view_subject_list": [],
+    "can_create_subject": [],
+    "can_edit_subject": [],
+    "can_view_individual_subject": [],
+    "can_delete_subject": [],
+    "can_view_assigned_and_enrolled_subjects": [
+        "2",
+        "3",
+        "4"
+    ]
+}

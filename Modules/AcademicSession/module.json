@@ -1,0 +1,16 @@
+{
+    "name": "AcademicSession",
+    "alias": "academicsession",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\AcademicSession\\Providers\\AcademicSessionServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

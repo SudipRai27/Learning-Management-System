@@ -1,0 +1,18 @@
+{
+    "can_view_exam_list": [
+        "2",
+        "4"
+    ],
+    "can_create_exam": [],
+    "can_edit_exam": [],
+    "can_delete_exam": [],
+    "can_view_exam_marks_list": [
+        "2"
+    ],
+    "can_edit_exam_marks": [
+        "2"
+    ],
+    "can_upload_exam_marks": [
+        "2"
+    ]
+}

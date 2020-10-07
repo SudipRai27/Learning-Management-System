@@ -1,0 +1,11 @@
+{
+    "can_view_teacher_list": [],
+    "can_create_teacher": [],
+    "can_edit_teacher": [],
+    "can_delete_teacher": [],
+    "can_view_individual_teacher": [],
+    "can_view_assigned_teacher_list": [],
+    "can_assign_teacher": [],
+    "can_edit_assigned_teacher": [],
+    "can_delete_assigned_teacher": []
+}

@@ -1,0 +1,14 @@
+{
+    "can_view_enrollment_list": [
+        "3"
+    ],
+    "can_create_enrollment": [
+        "3"
+    ],
+    "can_view_individual_enrollment": [
+        "3"
+    ],
+    "can_delete_enrollment": [
+        "3"
+    ]
+}

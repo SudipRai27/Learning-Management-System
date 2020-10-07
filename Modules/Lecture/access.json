@@ -1,0 +1,30 @@
+{
+    "can_view_lecture_list": [
+        "2",
+        "4"
+    ],
+    "can_create_lecture": [
+        "2"
+    ],
+    "can_edit_lecture": [
+        "2"
+    ],
+    "can_view_individual_lecture": [
+        "2",
+        "3",
+        "4"
+    ],
+    "can_manage_lecture_resources": [
+        "2",
+        "4"
+    ],
+    "can_delete_lecture": [
+        "2"
+    ],
+    "can_remove_lecture_resources": [
+        "2"
+    ],
+    "can_upload_lecture_resources": [
+        "2"
+    ]
+}

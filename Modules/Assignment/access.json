@@ -1,0 +1,51 @@
+{
+    "can_view_assignment_list": [
+        "2",
+        "3",
+        "4"
+    ],
+    "can_create_assignment": [
+        "2"
+    ],
+    "can_edit_assignment": [
+        "2"
+    ],
+    "can_view_individual_assignment": [
+        "2",
+        "3",
+        "4"
+    ],
+    "can_delete_assignment": [
+        "2"
+    ],
+    "can_manage_assignment_files": [
+        "2",
+        "4"
+    ],
+    "can_view_assignment_marks_list": [
+        "2",
+        "4"
+    ],
+    "can_edit_assignment_marks": [
+        "2",
+        "4"
+    ],
+    "can_upload_assignment_marks": [
+        "2",
+        "4"
+    ],
+    "can_submit_assignment": [
+        "3"
+    ],
+    "can_view_submission": [
+        "2",
+        "4"
+    ],
+    "can_remove_assignment_submission_files": [
+        "2",
+        "4"
+    ],
+    "can_remove_submission": [
+        "2"
+    ]
+}

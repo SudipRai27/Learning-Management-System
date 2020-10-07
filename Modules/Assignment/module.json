@@ -1,0 +1,16 @@
+{
+    "name": "Assignment",
+    "alias": "assignment",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Assignment\\Providers\\AssignmentServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

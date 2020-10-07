@@ -1,0 +1,16 @@
+{
+    "name": "Lecture",
+    "alias": "lecture",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Lecture\\Providers\\LectureServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

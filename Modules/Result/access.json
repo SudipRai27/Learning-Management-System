@@ -1,0 +1,11 @@
+{
+    "can_view_result_list": [],
+    "can_generate_result": [],
+    "can_view_individual_result": [
+        "3"
+    ],
+    "can_delete_result": [],
+    "can_view_grades": [
+        "3"
+    ]
+}

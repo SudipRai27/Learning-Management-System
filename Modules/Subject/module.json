@@ -1,0 +1,16 @@
+{
+    "name": "Subject",
+    "alias": "subject",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Subject\\Providers\\SubjectServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

@@ -1,0 +1,16 @@
+{
+    "can_view_attendance_list": [
+        "2",
+        "3",
+        "4"
+    ],
+    "can_create_update_attendance": [
+        "2",
+        "4"
+    ],
+    "can_view_individual_attendance": [
+        "2",
+        "3",
+        "4"
+    ]
+}

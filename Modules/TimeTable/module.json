@@ -1,0 +1,16 @@
+{
+    "name": "TimeTable",
+    "alias": "timetable",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\TimeTable\\Providers\\TimeTableServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}
